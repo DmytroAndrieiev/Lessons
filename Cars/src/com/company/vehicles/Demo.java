@@ -6,7 +6,7 @@ import com.company.professions.Driver;
 public class Demo {
     public static void main(String[] args){
         Driver bmwDriver=new Driver("Иванов В.В.", 50, false, 30);
-        Engine bmwEngine=new Engine(60, "BMW");
+        Engine bmwEngine=new Engine(60, "BMW1");
         Car car=new Car("bmw","A",3000,bmwDriver,bmwEngine);
 
         Driver lorryDriver=new Driver("Петров В.В.", 45, false, 20);
